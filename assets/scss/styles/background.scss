@@ -1,0 +1,24 @@
+.background {
+  img {
+    position: absolute;
+    z-index: -1;
+  }
+
+  &__green-item {
+    height: 650px;
+    width: auto;
+    right: -200px;
+    top: 210px;
+
+    @media ($breakpoint-s) {
+      display: none;
+    }
+  }
+
+  &__gray-item {
+    top: 180px;
+    height: auto;
+    width: 100%;
+    left: 0;
+  }
+}

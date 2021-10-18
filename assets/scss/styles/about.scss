@@ -1,0 +1,41 @@
+.about {
+  &__tel-example {
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+.intro {
+  align-items: center;
+
+  &__text {
+    max-width: 470px;
+    padding-right: 20px;
+
+    @media ($breakpoint-s) {
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+
+  &__body {
+    margin-bottom: 50px;
+
+    @media ($breakpoint-m) {
+      margin-bottom: 100px;
+    }
+
+    @media ($breakpoint-s) {
+      margin-top: 50px;
+    }
+  }
+
+  &__img {
+    text-align: center;
+
+    @media ($breakpoint-s) {
+      display: none;
+    }
+  }
+}
